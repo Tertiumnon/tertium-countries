@@ -20,7 +20,7 @@
   "author": "Vitalii Balabanov",
   "license": "ISC",
   "devDependencies": {
-    "@tertium/js": "^1.4.8",
+    "@tertium/js": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",

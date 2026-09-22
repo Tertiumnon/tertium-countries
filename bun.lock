@@ -5,7 +5,7 @@
     "": {
       "name": "@tertium/countries",
       "devDependencies": {
-        "@tertium/js": "^1.4.8",
+        "@tertium/js": "^3.0.0",
         "@typescript-eslint/eslint-plugin": "^5.26.0",
         "@typescript-eslint/parser": "^5.26.0",
         "eslint": "^8.16.0",
@@ -38,7 +38,7 @@
 
     "@rtsao/scc": ["@rtsao/scc@1.1.0", "", {}, "sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g=="],
 
-    "@tertium/js": ["@tertium/js@1.4.8", "", {}, "sha512-YZTVNDiH8h7TJEr+Z1PLlvXAawxFtTNhqlKv7ertX9Bl1PE5/rVOaXN7K+PncFS7KfgdW/bSKiQJ0aWE02fjWg=="],
+    "@tertium/js": ["@tertium/js@3.0.0", "", { "peerDependencies": { "jose": "^6.0.0" }, "optionalPeers": ["jose"] }, "sha512-SY6pwaAkVPgQjCIpyKvSECAaZ8TL1K+cqXxnM1HUg2M2Lz5Njnika8AkYH99JNZZnb8KDmT/4cawGDpxEK6lfA=="],
 
     "@types/json-schema": ["@types/json-schema@7.0.15", "", {}, "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="],
 
