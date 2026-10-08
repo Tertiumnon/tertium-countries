@@ -28,6 +28,10 @@
     "dial"
   ],
   "author": "Vitalii Balabanov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tertiumnon/tertium-countries.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@tertium/js": "^3.2.0",
