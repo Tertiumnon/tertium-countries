@@ -183,7 +183,12 @@ export const RU: Country[] = [
   { name: 'Сан-Марино', alpha2: 'SM' },
   { name: 'Сан-Томе и Принсипи', alpha2: 'ST' },
   { name: 'Саудовская Аравия', alpha2: 'SA' },
+  { name: 'Эквадор', alpha2: 'EC' },
+  { name: 'Экваториальная Гвинея', alpha2: 'GQ' },
+  { name: 'Эритрея', alpha2: 'ER' },
+  { name: 'Эстония', alpha2: 'EE' },
   { name: 'Эсватини', alpha2: 'SZ' },
+  { name: 'Эфиопия', alpha2: 'ET' },
   { name: 'Северные Марианские Острова', alpha2: 'MP' },
   { name: 'Сейшельские Острова', alpha2: 'SC' },
   { name: 'Сен-Бартелеми (Карибы)', alpha2: 'BL' },
@@ -239,6 +244,13 @@ export const RU: Country[] = [
   { name: 'Чили', alpha2: 'CL' },
   { name: 'Швейцария', alpha2: 'CH' },
   { name: 'Швеция', alpha2: 'SE' },
+  { name: 'Шпицберген', alpha2: 'SJ' },
+  { name: 'Шри-Ланка', alpha2: 'LK' },
+  { name: 'Южная Георгия и Южные Сандвичевы острова', alpha2: 'GS' },
+  { name: 'Южный Судан', alpha2: 'SS' },
+  { name: 'ЮАР', alpha2: 'ZA' },
+  { name: 'Ямайка', alpha2: 'JM' },
+  { name: 'Япония', alpha2: 'JP' },
 ];
 
 export default RU;

@@ -1,15 +1,25 @@
 {
   "name": "@tertium/countries",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Collection of countries with ISO codes.",
+  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "bun test",
-    "clean": "node node_modules/@tertium/js/scripts/clean.js",
-    "release:patch": "node node_modules/@tertium/js/scripts/release.js patch",
-    "release:minor": "node node_modules/@tertium/js/scripts/release.js minor",
-    "release:major": "node node_modules/@tertium/js/scripts/release.js major"
+    "lint": "eslint src tests",
+    "typecheck": "tsc --noEmit",
+    "hooks:install": "bun node_modules/@tertium/js/scripts/git-hooks/git-hooks.ts",
+    "workflow:publish": "bun node_modules/@tertium/js/scripts/npm-publish-workflow/npm-publish-workflow.ts",
+    "clean": "bun node_modules/@tertium/js/scripts/clean/clean.ts",
+    "release:patch": "bun node_modules/@tertium/js/scripts/release/release.ts patch",
+    "release:minor": "bun node_modules/@tertium/js/scripts/release/release.ts minor",
+    "release:major": "bun node_modules/@tertium/js/scripts/release/release.ts major",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "keywords": [
     "country",
@@ -20,7 +30,7 @@
   "author": "Vitalii Balabanov",
   "license": "ISC",
   "devDependencies": {
-    "@tertium/js": "^1.4.8",
+    "@tertium/js": "^3.1.1",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
