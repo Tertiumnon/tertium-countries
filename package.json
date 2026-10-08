@@ -2,14 +2,24 @@
   "name": "@tertium/countries",
   "version": "0.5.0",
   "description": "Collection of countries with ISO codes.",
+  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "bun test",
-    "clean": "node node_modules/@tertium/js/scripts/clean.js",
-    "release:patch": "node node_modules/@tertium/js/scripts/release.js patch",
-    "release:minor": "node node_modules/@tertium/js/scripts/release.js minor",
-    "release:major": "node node_modules/@tertium/js/scripts/release.js major"
+    "lint": "eslint src tests",
+    "typecheck": "tsc --noEmit",
+    "hooks:install": "bun node_modules/@tertium/js/scripts/git-hooks/git-hooks.ts",
+    "workflow:publish": "bun node_modules/@tertium/js/scripts/npm-publish-workflow/npm-publish-workflow.ts",
+    "clean": "bun node_modules/@tertium/js/scripts/clean/clean.ts",
+    "release:patch": "bun node_modules/@tertium/js/scripts/release/release.ts patch",
+    "release:minor": "bun node_modules/@tertium/js/scripts/release/release.ts minor",
+    "release:major": "bun node_modules/@tertium/js/scripts/release/release.ts major",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "keywords": [
     "country",
