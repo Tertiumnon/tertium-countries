@@ -1,6 +1,6 @@
 {
   "name": "@tertium/countries",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Collection of countries with ISO codes.",
   "type": "module",
   "main": "dist/index.js",
