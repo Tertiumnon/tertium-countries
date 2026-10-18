@@ -33,7 +33,7 @@
     "type": "git",
     "url": "git+https://github.com/Tertiumnon/tertium-countries.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@tertium/js": "^3.2.0",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
