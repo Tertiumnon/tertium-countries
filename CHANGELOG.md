@@ -1,3 +1,10 @@
+# Changelog
+
+## 0.6.1 - 2026-10-18
+
+- chore(release): add changelog and release scripts
+- chore(release): use @tertium/gith for releases and changelog
+
 # [0.2.0](https://github.com/Tertiumnon/countries/compare/v0.1.1...v0.2.0) (2021-05-19)
 
 
