@@ -115,3 +115,7 @@ Result:
   // ...
 ]
 ```
+
+## Support
+
+If this project is useful to you, you can support its development on [Ko-fi](https://ko-fi.com/tertiumnon).
