@@ -19,7 +19,8 @@
     "release:patch": "npx @tertium/gith release --patch",
     "release:minor": "npx @tertium/gith release --minor",
     "release:major": "npx @tertium/gith release --major",
-    "prepare": "git config core.hooksPath .githooks"
+    "prepare": "git config core.hooksPath .githooks",
+    "changelog": "npx @tertium/gith changelog"
   },
   "keywords": [
     "country",
