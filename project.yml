@@ -2,7 +2,7 @@ type: npm-package
 display_name:
   en: "@tertium/countries"
 summary:
-  en: Collection of countries with ISO codes.
+  en: Country names in 20 languages with lookup helpers, as an ESM package.
 keywords:
   - countries
   - iso
@@ -23,3 +23,5 @@ platforms:
       name: "@tertium/countries"
 distribution:
   - npm
+publish_on:
+  - https://tertiumnon.github.io
