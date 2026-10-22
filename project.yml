@@ -1,3 +1,19 @@
 type: npm-package
-publish_on:
+slug: tertium-countries
+listed_on:
   - https://tertiumnon.github.io
+display_name:
+  en: "@tertium/countries"
+summary:
+  en: "Country names in 20 languages with lookup helpers, as an ESM package."
+languages:
+  - en
+default_language: en
+distribution:
+  - npm
+team:
+  - name: Vitalii Balabanov
+    roles:
+      - owner
+      - developer
+    github: Tertiumnon
